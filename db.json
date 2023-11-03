@@ -1,0 +1,44 @@
+{
+  "signup": [
+    {
+      "id": 1,
+      "firstName": "Anondor sajg",
+      "lastName": "islam ",
+      "email": "azizul@gmail.com",
+      "phone": "01945356567",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "firstName": "Milon",
+      "lastName": "Haque ",
+      "email": "milon@gmail.com",
+      "phone": "019565466567",
+      "password": "1234"
+    },
+    {
+      "id": 3,
+      "firstName": "Rafiq",
+      "lastName": "Mia ",
+      "email": "rafiq@gmail.com",
+      "phone": "01945356567",
+      "password": "1234"
+    },
+    {
+      "id": 4,
+      "firstName": "Sabbir",
+      "lastName": "Hossain ",
+      "email": "sabbir@gmail.com",
+      "phone": "019565466567",
+      "password": "1234"
+    },
+    {
+      "id": 5,
+      "firstName": "anamul",
+      "lastName": "haque",
+      "email": "anamul@gmail.com",
+      "phone": "0124857489",
+      "password": "1234"
+    }
+  ]
+}

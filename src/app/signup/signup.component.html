@@ -1,0 +1,37 @@
+
+<div class="container" style="width: 60%; margin: auto;"> 
+    <h1 style="text-align: center;">Signup Here</h1>
+        <form  [formGroup]="signupForm" (ngSubmit)="signupdata()">
+            <div class="input-group mb-3">
+    
+                <input type="text" class="form-control" placeholder="Enter your first name" formControlName="firstName"/>
+                </div>
+               
+                <div class="input-group mb-3">
+    
+                    <input type="text" class="form-control" placeholder="Enter your last name" formControlName="lastName"/>
+                    </div>
+                   
+            <div class="input-group mb-3">
+    
+                <input type="email" class="form-control" placeholder="Email" formControlName="email"/>
+                </div>
+
+                         
+            <div class="input-group mb-3">
+    
+                <input type="text" class="form-control" placeholder="Phone Number" formControlName="phone"/>
+                </div>
+                <div class="input-group mb-3" >
+    
+                    <input type="text" class="form-control" placeholder="password" formControlName="password"/>
+                    </div>
+    
+                    <button type="submit" >submit</button>
+        
+    
+        </form>
+    
+    </div>
+    
+    

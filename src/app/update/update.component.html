@@ -1,0 +1,42 @@
+
+<div class="container" style="width: 60%; margin: auto;"> 
+    <h1 style="text-align: center;">Update Here</h1>
+
+    
+
+        <form *ngIf="employee">
+            <div class="input-group mb-3">
+    
+                <input type="text" class="form-control" [(ngModel)]="employee.firstName" name="firstName"  placeholder="Enter your first name" />
+                </div> 
+                <div class="input-group mb-3">
+    
+                    <input type="text" class="form-control" placeholder="Enter your last name"  [(ngModel)]="employee.lastName" name="lastName"  />
+                    </div>
+                   
+            <div class="input-group mb-3">
+    
+                <input type="email" class="form-control" placeholder="Email"  [(ngModel)]="employee.email" name="email" />
+                </div>
+            <div class="input-group mb-3">
+    
+                <input type="text" class="form-control" placeholder="Phone Number" [(ngModel)]="employee.phone" name="phone" />
+                </div>
+                <div class="input-group mb-3" >
+    
+                    <input type="text" class="form-control" placeholder="password" [(ngModel)]="employee.password" name="password" />
+                    </div>
+    
+                    <button type="submit" (click)="update()">update</button>
+        
+        </form>
+    
+   
+    
+    <br>
+    <pre>
+        {{employee|json}}
+    </pre>
+    
+    
+
